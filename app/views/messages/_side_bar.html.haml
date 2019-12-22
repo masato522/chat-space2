@@ -1,0 +1,17 @@
+.side-bar
+  .side-header
+    .side-header__box
+      %p.side-header__box__user-name
+        masato
+      %ul.side-header__box__menu
+        %li.side-header__box__menu__create-group
+          = link_to "#", class: "btn create-btn" do
+            %i.fa.fa-edit
+        %li.side-header__box__menu__update-user
+          = link_to "#", class: "btn update-btn" do
+            %i.fa.fa-cog
+  .group-list
+    %p.group-list__group-name
+      テストグループ
+    %p.group-list__latest-message
+      こんにちわ
